@@ -32,7 +32,7 @@ const Navbar = async ({ }) => {
                     {
                         session ? (
                             <>
-                                <Link className={buttonVariants({variant: 'ghost'})} href='/'>
+                                <Link className={buttonVariants({variant: 'ghost'})} href='/dashboard'>
                                     Dashboard
                                 </Link>
                                 <SignOutButton />
